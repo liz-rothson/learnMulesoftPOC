@@ -111,7 +111,7 @@
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
-		<!-- Part of the Nexus Repo -->
+		<!-- Part of the Nexus hello 123 Repo -->
 		<repository>
 			<id>mulesoftPOC-Group-Release</id>
 			<name>Nexus mulesoftPOC-Group-Release Repository</name>
