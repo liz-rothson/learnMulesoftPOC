@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd">
+	<db:config name="Oracle_Database_21C" doc:name="Database Config" doc:id="ee172b9f-15c3-44b0-b50f-e20d4ef4aacf" >
+		<db:oracle-connection host="localhost" user="learnmulesoft" password="admin123" serviceName="XEPDB1" />
+	</db:config>
+	<db:config name="MySQL_Root" doc:name="Database Config" doc:id="d93c60c8-ee8d-4176-ae17-9ae6b8b08e6a" >
+		<db:my-sql-connection host="localhost" port="3306" user="root" password="admin123" />
+	</db:config>
+</mule>
